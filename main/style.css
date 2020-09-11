@@ -1,0 +1,104 @@
+html {
+    font-size: 16px;
+    font-family: 'Bitter', serif;
+    background: #f8f8ff;
+    color: #5F5261;
+}
+
+h1, h2, h5 {
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 0;
+    color: #7F6D82;
+}
+
+h1 {
+    font-size: 3.052em;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 2.441em;
+}
+
+h5 {
+    font-size: 1.25em;
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+figcaption {
+    font-size: 0.64em;
+}
+
+hr {
+    height: 1px;
+    background-color: #D8A7CA;
+    border: none;
+}
+
+.button {
+    background-color: #f8f8ff;
+    border: 2px solid #f8f8ff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 35%;
+    margin: auto;
+}
+
+.button:hover {
+    background-color: #C7B8EA;
+}
+
+.content {
+    display: flex;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+}
+
+#intro {
+    padding: 0 3% 0 0
+}
+
+p {
+    line-height: 1.5em;
+}
+
+#index {
+    width: 40%;
+    border: 2px solid #D8A7CA;
+    border-radius: 5px;
+    margin: 60px auto 60px;
+    padding: 25px 15px;
+}
+
+ul {
+    line-height: 1.5em
+}
+
+.padsides {
+    padding: 0 3%;
+}
+
+.landscape {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+}
+
+.center {
+    width: 60%;
+    margin: auto;
+}
