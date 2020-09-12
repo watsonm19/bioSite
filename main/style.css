@@ -90,11 +90,13 @@ hr {
     background-color: #C7B8EA;
     border: 2px solid #C7B8EA;
     padding: 10px 20px;
-    text-decoration: none;
     display: inline-block;
-    font-size: 16px;
     width: 35%;
     margin: auto;
+}
+
+.no-line {
+    text-decoration: none;
 }
 
 .button:hover {
@@ -150,7 +152,7 @@ a:hover {
 }
 
 address {
-    width: 145px;
+    width: 300px;
     padding: 10px 0;
     margin-left: 30px;
 }
