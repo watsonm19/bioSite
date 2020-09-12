@@ -12,7 +12,7 @@ body {
 
 h1, h2, h5 {
     font-family: 'Roboto Slab', serif;
-    margin-bottom: 0;
+    margin: 0 10px;
     color: #7F6D82;
 }
 
@@ -39,6 +39,20 @@ h5 {
     text-align: center;
     padding-bottom: 10px;
     color: #5F5261;
+}
+
+ul {
+    line-height: 1.5em
+}
+
+p {
+    line-height: 1.5em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 700px;
 }
 
 figcaption {
@@ -100,18 +114,8 @@ a:hover {
     flex-direction: column;
 }
 
-img {
-    width: 100%;
-    height: auto;
-    max-width: 700px;
-}
-
 #intro {
-    padding: 0 3% 0 0
-}
-
-p {
-    line-height: 1.5em;
+    padding: 0 3% 0 0;
 }
 
 #index {
@@ -121,10 +125,6 @@ p {
     margin: 60px auto 60px;
     padding: 25px 15px;
     background: #C7B8EA;
-}
-
-ul {
-    line-height: 1.5em
 }
 
 .padsides {
