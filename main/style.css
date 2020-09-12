@@ -56,6 +56,7 @@ hr {
     margin: 0 0 8px 0;
     text-align: center;
     background: #C7B8EA;
+    border: 1px solid #BEAFDD;
     color: #5F5261;
     position: fixed;
     top: 0;
@@ -139,4 +140,17 @@ ul {
 .center {
     width: 60%;
     margin: auto;
+}
+
+footer {
+    background: #C7B8EA;
+    border: 1px solid #BEAFDD;
+    font-size: 0.8em;
+    line-height: 1.25em;
+}
+
+address {
+    width: 145px;
+    padding: 10px 0;
+    margin-left: 30px;
 }
