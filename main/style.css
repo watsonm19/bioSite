@@ -1,3 +1,6 @@
+/*============*/
+/* General */
+/*============*/
 html {
     font-size: 16px;
     font-family: 'Bitter', serif;
@@ -12,7 +15,7 @@ body {
 
 h1, h2, h5 {
     font-family: 'Roboto Slab', serif;
-    margin: 0 10px;
+    margin: 0 15px;
     color: #7F6D82;
 }
 
@@ -42,65 +45,18 @@ h5 {
 }
 
 ul {
-    line-height: 1.5em
+    line-height: 1.5em;
 }
 
 p {
     line-height: 1.5em;
 }
 
-img {
-    width: 100%;
-    height: auto;
-    max-width: 700px;
-}
-
-figcaption {
-    font-size: 0.64em;
-}
-
 hr {
     height: 1px;
     background-color: #D8A7CA;
     border: none;
-}
-
-.header {
-    padding: 0;
-    margin: 0 0 8px 0;
-    text-align: center;
-    background: #C7B8EA;
-    border: 1px solid #BEAFDD;
-    color: #5F5261;
-    position: fixed;
-    top: 0;
-    width: 100%
-  }
-
-  #bioSite {
-      text-decoration: none;
-      color: #5F5261;
-  }
-
-  #bioSite:hover {
-      color: #f8f8ff;
-  }
-
-.button {
-    background-color: #C7B8EA;
-    border: 2px solid #C7B8EA;
-    padding: 10px 20px;
-    display: inline-block;
-    width: 35%;
-    margin: auto;
-}
-
-.no-line {
-    text-decoration: none;
-}
-
-.button:hover {
-    background-color: #BEAFDD;
+    margin: 0 5px;
 }
 
 a:hover {
@@ -116,8 +72,112 @@ a:hover {
     flex-direction: column;
 }
 
+.padsides {
+    padding: 0 3%;
+}
+
+.no-line {
+    text-decoration: none;
+}
+
 #intro {
     padding: 0 3% 0 0;
+}
+
+/*======================*/
+/* Header & Footer */
+/*======================*/
+address {
+    width: 300px;
+    padding: 10px 0;
+    margin-left: 30px;
+}
+
+.header {
+    padding: 0;
+    margin: 0 0 8px 0;
+    text-align: center;
+    background: #C7B8EA;
+    border: 1px solid #BEAFDD;
+    color: #5F5261;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.footer {
+    background: #C7B8EA;
+    border: 1px solid #BEAFDD;
+    font-size: 0.8em;
+    line-height: 1.25em;
+}
+
+#bioSite {
+    text-decoration: none;
+    color: #5F5261;
+}
+
+#bioSite:hover {
+    color: #f8f8ff;
+}
+
+/*============================*/
+/* Index, Figures & Images */
+/*============================*/
+figure {
+    border: 1px solid #D8A7CA;
+    height: 95%;
+    border-radius: 3%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+figcaption {
+    font-size: 0.64em;
+    margin: 1px 3px;
+}
+
+.landscape {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+}
+
+.landscape-cap {
+    margin: 1px 20px;
+}
+
+.center {
+    width: 60%;
+    margin: auto;
+}
+
+.button {
+    background-color: #C7B8EA;
+    border: 2px solid #C7B8EA;
+    padding: 10px 20px;
+    display: inline-block;
+    width: 35%;
+    margin: auto;
+}
+
+.button:hover {
+    background-color: #BEAFDD;
+}
+
+#profile-img {
+    border: 1px solid #D8A7CA;
+    border-radius: 3%;
+}
+
+#profile-fig {
+    border: none;
 }
 
 #index {
@@ -127,32 +187,4 @@ a:hover {
     margin: 60px auto 60px;
     padding: 25px 15px;
     background: #C7B8EA;
-}
-
-.padsides {
-    padding: 0 3%;
-}
-
-.landscape {
-    width: 100%;
-    height: auto;
-    max-width: 800px;
-}
-
-.center {
-    width: 60%;
-    margin: auto;
-}
-
-.footer {
-    background: #C7B8EA;
-    border: 1px solid #BEAFDD;
-    font-size: 0.8em;
-    line-height: 1.25em;
-}
-
-address {
-    width: 300px;
-    padding: 10px 0;
-    margin-left: 30px;
 }
