@@ -6,6 +6,7 @@ html {
     font-family: 'Bitter', serif;
     background: #f8f8ff;
     color: #5F5261;
+    scroll-padding-top: var(--top-spacing);
 }
 
 body {
@@ -21,11 +22,14 @@ h1, h2, h5 {
 
 h1 {
     font-size: 3.052em;
-    margin-top: 0;
+    margin-top: -35px;
+    padding-top: 35px;
 }
 
 h2 {
     font-size: 2.441em;
+    margin-top: -20px;
+    padding-top: 35px;
 }
 
 h4 {
@@ -56,7 +60,7 @@ hr {
     height: 1px;
     background-color: #D8A7CA;
     border: none;
-    margin: 0 5px;
+    margin: 0 5px 15px;
 }
 
 a:hover {
@@ -110,6 +114,7 @@ address {
     border: 1px solid #BEAFDD;
     font-size: 0.8em;
     line-height: 1.25em;
+    margin-top: 15px;
 }
 
 #bioSite {
@@ -162,9 +167,9 @@ figcaption {
     background-color: #C7B8EA;
     border: 2px solid #C7B8EA;
     padding: 10px 20px;
-    display: inline-block;
-    width: 35%;
-    margin: auto;
+    /* display: inline-block; */
+    width: auto;
+    margin-right: auto;
 }
 
 .button:hover {
