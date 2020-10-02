@@ -76,16 +76,12 @@ a:hover {
     flex-direction: column;
 }
 
-.padsides {
+.side-padding {
     padding: 0 3%;
 }
 
 .no-line {
     text-decoration: none;
-}
-
-#intro {
-    padding: 0 3% 0 0;
 }
 
 /*======================*/
@@ -131,21 +127,21 @@ address {
 /*============================*/
 figure {
     border: 1px solid #D8A7CA;
-    height: 95%;
+    height: 100%;
     border-radius: 3%;
 }
 
 img {
     width: 100%;
+    min-width: 200px;
     height: auto;
-    max-width: 700px;
     border-top-left-radius: inherit;
     border-top-right-radius: inherit;
 }
 
 figcaption {
     font-size: 0.64em;
-    margin: 1px 3px;
+    margin: 3px 6px;
 }
 
 .landscape {
@@ -166,8 +162,8 @@ figcaption {
 .button {
     background-color: #C7B8EA;
     border: 2px solid #C7B8EA;
+    border-radius: 20px;
     padding: 10px 20px;
-    /* display: inline-block; */
     width: auto;
     margin-right: auto;
 }
@@ -179,7 +175,8 @@ figcaption {
 #profile-img {
     border: 1px solid #D8A7CA;
     border-radius: 3%;
-    max-width: 1150px;
+    min-width: 220px;
+    max-width: 1100px;
 }
 
 #profile-fig {
@@ -193,4 +190,20 @@ figcaption {
     margin: 60px auto 60px;
     padding: 25px 15px;
     background: #C7B8EA;
+}
+
+/* =============== */
+/* Responsive Media Queries */
+/* =============== */
+
+@media only screen and (max-width: 768px) {
+    [class*="content"] {
+        flex-direction: column;
+    }
+    [class*="landscape"] {
+        min-width: 400px;
+    }
+    [class*="center"] {
+        width: 100%;
+    }
 }
