@@ -192,16 +192,16 @@ figcaption {
     background: #C7B8EA;
 }
 
-/* =============== */
+/* =========================== */
 /* Responsive Media Queries */
-/* =============== */
+/* =========================== */
 
 @media only screen and (max-width: 768px) {
     [class*="content"] {
         flex-direction: column;
     }
     [class*="landscape"] {
-        min-width: 400px;
+        min-width: 300px;
     }
     [class*="center"] {
         width: 100%;
