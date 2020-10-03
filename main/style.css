@@ -84,6 +84,11 @@ a:hover {
     text-decoration: none;
 }
 
+.center {
+    width: 60%;
+    margin: auto;
+}
+
 /*======================*/
 /* Header & Footer */
 /*======================*/
@@ -122,9 +127,34 @@ address {
     color: #f8f8ff;
 }
 
-/*============================*/
-/* Index, Figures & Images */
-/*============================*/
+/*===============*/
+/* Contents Box */
+/*==============*/
+.button {
+    background-color: #C7B8EA;
+    border: 2px solid #C7B8EA;
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: auto;
+    margin-right: auto;
+}
+
+.button:hover {
+    background-color: #BEAFDD;
+}
+
+#index {
+    width: 45%;
+    border: 2px solid #D8A7CA;
+    border-radius: 5px;
+    margin: 60px auto 60px;
+    padding: 25px 15px;
+    background: #C7B8EA;
+}
+
+/*======================*/
+/* Figures & Images */
+/*======================*/
 figure {
     border: 1px solid #D8A7CA;
     height: 100%;
@@ -154,24 +184,6 @@ figcaption {
     margin: 1px 20px;
 }
 
-.center {
-    width: 60%;
-    margin: auto;
-}
-
-.button {
-    background-color: #C7B8EA;
-    border: 2px solid #C7B8EA;
-    border-radius: 20px;
-    padding: 10px 20px;
-    width: auto;
-    margin-right: auto;
-}
-
-.button:hover {
-    background-color: #BEAFDD;
-}
-
 #profile-img {
     border: 1px solid #D8A7CA;
     border-radius: 3%;
@@ -183,18 +195,10 @@ figcaption {
     border: none;
 }
 
-#index {
-    width: 45%;
-    border: 2px solid #D8A7CA;
-    border-radius: 5px;
-    margin: 60px auto 60px;
-    padding: 25px 15px;
-    background: #C7B8EA;
-}
-
-/* =========================== */
-/* Responsive Media Queries */
-/* =========================== */
+/* ================================ */
+/*    Responsive Media Queries     */
+/* (for Tablets and Mobile Phones) */
+/* ================================ */
 
 @media only screen and (max-width: 768px) {
     [class*="content"] {
