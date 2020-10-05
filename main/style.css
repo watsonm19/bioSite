@@ -103,12 +103,43 @@ address {
     margin: 0 0 8px 0;
     text-align: center;
     background: #C7B8EA;
-    border: 1px solid #BEAFDD;
     color: #5F5261;
     position: fixed;
     top: 0;
     width: 100%;
+    box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.2);
   }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 35%;
+    min-width: 350px;
+    background-color: #BEAFDD;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+.dropdown-item {
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 2px 3px;
+}
+
+header:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-item:hover {
+    background-color: #C7B8EA;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
 
 .footer {
     background: #C7B8EA;
